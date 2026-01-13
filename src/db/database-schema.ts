@@ -1,6 +1,6 @@
 /**
  * Database Schema Database Module
- * Prisma schema with Item, Supplier, Purchase, Sale, Customer, User models
+ * Prisma schema with Item, Supplier, Purchase, Sale, Customer, and User models
  */
 
 export interface DatabaseSchemaModel {
