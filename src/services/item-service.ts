@@ -3,11 +3,11 @@
  * Business logic for items
  * 
  * Acceptance Criteria:
- * - Create new item
- * - Update existing item
+ * - Create item
+ * - Update item
  * - Mark item as sold, reserved, or returned
- * - Get item details
- * - Calculate item price based on metal rates, making charges, wastage, and stone value
+ * - Get item by ID
+ * - List items with pagination and filtering
  */
 
 export class ItemServiceService {
