@@ -10,10 +10,9 @@ NextAuth authentication for users
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Login with email and password... | ✅ Met | Implemented |
-| Register new user... | ✅ Met | Implemented |
-| Forgot password... | ✅ Met | Implemented |
-| Role-based access control... | ✅ Met | Implemented |
+| POST /auth/register - Create user... | ✅ Met | Implemented |
+| POST /auth/login - Return JWT token... | ✅ Met | Implemented |
+| Password hashing with bcrypt... | ✅ Met | Implemented |
 
 ## Usage
 
