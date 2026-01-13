@@ -6,10 +6,10 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * 
  * Acceptance Criteria:
  * - Item model with id, name, category, metalType, purity, grossWeight, netWeight, stoneDetails, makingCharges, wastage, finalPrice, and timestamps
- * - Supplier model with id, name, contactDetails, and timestamps
- * - Purchase model with id, itemId, supplierId, purchaseDate, quantity, and totalCost
- * - Sale model with id, itemId, customerId, saleDate, quantity, and totalRevenue
- * - Customer model with id, name, contactDetails, and timestamps
+ * - Supplier model with id, name, address, and contactDetails
+ * - Purchase model with id, supplierId, itemId, quantity, and date
+ * - Sale model with id, customerId, itemId, quantity, and date
+ * - Customer model with id, name, address, and contactDetails
  * - User model with id, name, email, password, role, and timestamps
  * - Foreign key relationships between models
  */
@@ -33,8 +33,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 2: Supplier model with id, name, contactDetails, and ...', () => {
-    it('should satisfy: Supplier model with id, name, contactDetails, and timestamps', () => {
+  describe('Criterion 2: Supplier model with id, name, address, and contact...', () => {
+    it('should satisfy: Supplier model with id, name, address, and contactDetails', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -46,8 +46,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 3: Purchase model with id, itemId, supplierId, purcha...', () => {
-    it('should satisfy: Purchase model with id, itemId, supplierId, purchaseDate, qu', () => {
+  describe('Criterion 3: Purchase model with id, supplierId, itemId, quanti...', () => {
+    it('should satisfy: Purchase model with id, supplierId, itemId, quantity, and da', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -59,8 +59,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 4: Sale model with id, itemId, customerId, saleDate, ...', () => {
-    it('should satisfy: Sale model with id, itemId, customerId, saleDate, quantity, ', () => {
+  describe('Criterion 4: Sale model with id, customerId, itemId, quantity, ...', () => {
+    it('should satisfy: Sale model with id, customerId, itemId, quantity, and date', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -72,8 +72,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 5: Customer model with id, name, contactDetails, and ...', () => {
-    it('should satisfy: Customer model with id, name, contactDetails, and timestamps', () => {
+  describe('Criterion 5: Customer model with id, name, address, and contact...', () => {
+    it('should satisfy: Customer model with id, name, address, and contactDetails', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
