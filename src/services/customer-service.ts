@@ -3,9 +3,10 @@
  * Business logic for customers
  * 
  * Acceptance Criteria:
- * - Create new customer
- * - Update existing customer
- * - Get customer details
+ * - Create customer
+ * - Update customer
+ * - Get customer by ID
+ * - List customers with pagination and filtering
  */
 
 export class CustomerServiceService {
