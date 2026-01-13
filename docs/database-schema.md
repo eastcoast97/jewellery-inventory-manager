@@ -11,10 +11,10 @@ Prisma schema with Item, Supplier, Purchase, Sale, Customer, and User models
 | Criterion | Status | Notes |
 |-----------|--------|-------|
 | Item model with id, name, category, metalType, pur... | ✅ Met | Implemented |
-| Supplier model with id, name, contactDetails, and ... | ✅ Met | Implemented |
-| Purchase model with id, itemId, supplierId, purcha... | ✅ Met | Implemented |
-| Sale model with id, itemId, customerId, saleDate, ... | ✅ Met | Implemented |
-| Customer model with id, name, contactDetails, and ... | ✅ Met | Implemented |
+| Supplier model with id, name, address, and contact... | ✅ Met | Implemented |
+| Purchase model with id, supplierId, itemId, quanti... | ✅ Met | Implemented |
+| Sale model with id, customerId, itemId, quantity, ... | ✅ Met | Implemented |
+| Customer model with id, name, address, and contact... | ✅ Met | Implemented |
 | User model with id, name, email, password, role, a... | ✅ Met | Implemented |
 | Foreign key relationships between models... | ✅ Met | Implemented |
 
