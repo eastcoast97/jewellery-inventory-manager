@@ -1,6 +1,6 @@
 /**
  * Authentication Auth Module
- * NextAuth authentication for users with roles
+ * NextAuth authentication for users
  */
 
 export interface AuthUser {
