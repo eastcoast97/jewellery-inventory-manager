@@ -37,9 +37,8 @@ await instance.execute();
 ## Dependencies
 
 - database-schema
-- item-service
 - sale-service
-- purchase-service
+- item-service
 
 ## Known Limitations
 
