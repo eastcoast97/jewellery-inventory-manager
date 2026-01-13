@@ -10,10 +10,10 @@ Business logic for dashboard
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Display current stock value... | ✅ Met | Implemented |
-| Display today's gold rate... | ✅ Met | Implemented |
-| Display recent sales... | ✅ Met | Implemented |
-| Display fast-moving items... | ✅ Met | Implemented |
+| Get current stock value... | ✅ Met | Implemented |
+| Get today's gold rate... | ✅ Met | Implemented |
+| Get recent sales... | ✅ Met | Implemented |
+| Get fast-moving items... | ✅ Met | Implemented |
 
 ## Usage
 
