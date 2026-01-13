@@ -10,11 +10,11 @@ Business logic for items
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create new item... | ✅ Met | Implemented |
-| Update existing item... | ✅ Met | Implemented |
+| Create item... | ✅ Met | Implemented |
+| Update item... | ✅ Met | Implemented |
 | Mark item as sold, reserved, or returned... | ✅ Met | Implemented |
-| Get item details... | ✅ Met | Implemented |
-| Calculate item price based on metal rates, making ... | ✅ Met | Implemented |
+| Get item by ID... | ✅ Met | Implemented |
+| List items with pagination and filtering... | ✅ Met | Implemented |
 
 ## Usage
 
