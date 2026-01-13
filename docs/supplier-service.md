@@ -10,10 +10,10 @@ Business logic for suppliers
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create supplier... | ✅ Met | Implemented |
-| Update supplier... | ✅ Met | Implemented |
-| Get supplier by ID... | ✅ Met | Implemented |
-| List suppliers with pagination and filtering... | ✅ Met | Implemented |
+| Create new supplier... | ✅ Met | Implemented |
+| Update existing supplier... | ✅ Met | Implemented |
+| Get supplier details... | ✅ Met | Implemented |
+| Get all suppliers... | ✅ Met | Implemented |
 
 ## Usage
 
