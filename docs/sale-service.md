@@ -10,10 +10,10 @@ Business logic for sales
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create sale... | ✅ Met | Implemented |
-| Update sale... | ✅ Met | Implemented |
-| Get sale by ID... | ✅ Met | Implemented |
-| List sales with pagination and filtering... | ✅ Met | Implemented |
+| Create new sale... | ✅ Met | Implemented |
+| Update existing sale... | ✅ Met | Implemented |
+| Get sale details... | ✅ Met | Implemented |
+| Get all sales... | ✅ Met | Implemented |
 
 ## Usage
 
@@ -37,7 +37,6 @@ await instance.execute();
 
 - database-schema
 - item-service
-- customer-service
 
 ## Known Limitations
 
