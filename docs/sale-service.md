@@ -10,9 +10,10 @@ Business logic for sales
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create new sale... | ✅ Met | Implemented |
-| Update existing sale... | ✅ Met | Implemented |
-| Get sale details... | ✅ Met | Implemented |
+| Create sale... | ✅ Met | Implemented |
+| Update sale... | ✅ Met | Implemented |
+| Get sale by ID... | ✅ Met | Implemented |
+| List sales with pagination and filtering... | ✅ Met | Implemented |
 
 ## Usage
 
