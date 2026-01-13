@@ -5,10 +5,10 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for purchases
  * 
  * Acceptance Criteria:
- * - Create purchase
- * - Update purchase
- * - Get purchase by ID
- * - List purchases with pagination and filtering
+ * - Create new purchase
+ * - Update existing purchase
+ * - Get purchase details
+ * - Get all purchases
  */
 
 describe('Purchase Service', () => {
@@ -17,8 +17,8 @@ describe('Purchase Service', () => {
   });
 
 
-  describe('Criterion 1: Create purchase...', () => {
-    it('should satisfy: Create purchase', () => {
+  describe('Criterion 1: Create new purchase...', () => {
+    it('should satisfy: Create new purchase', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -30,8 +30,8 @@ describe('Purchase Service', () => {
   });
 
 
-  describe('Criterion 2: Update purchase...', () => {
-    it('should satisfy: Update purchase', () => {
+  describe('Criterion 2: Update existing purchase...', () => {
+    it('should satisfy: Update existing purchase', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -43,8 +43,8 @@ describe('Purchase Service', () => {
   });
 
 
-  describe('Criterion 3: Get purchase by ID...', () => {
-    it('should satisfy: Get purchase by ID', () => {
+  describe('Criterion 3: Get purchase details...', () => {
+    it('should satisfy: Get purchase details', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -56,8 +56,8 @@ describe('Purchase Service', () => {
   });
 
 
-  describe('Criterion 4: List purchases with pagination and filtering...', () => {
-    it('should satisfy: List purchases with pagination and filtering', () => {
+  describe('Criterion 4: Get all purchases...', () => {
+    it('should satisfy: Get all purchases', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
