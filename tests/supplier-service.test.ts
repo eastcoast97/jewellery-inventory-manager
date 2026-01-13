@@ -5,10 +5,10 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for suppliers
  * 
  * Acceptance Criteria:
- * - Create supplier
- * - Update supplier
- * - Get supplier by ID
- * - List suppliers with pagination and filtering
+ * - Create new supplier
+ * - Update existing supplier
+ * - Get supplier details
+ * - Get all suppliers
  */
 
 describe('Supplier Service', () => {
@@ -17,8 +17,8 @@ describe('Supplier Service', () => {
   });
 
 
-  describe('Criterion 1: Create supplier...', () => {
-    it('should satisfy: Create supplier', () => {
+  describe('Criterion 1: Create new supplier...', () => {
+    it('should satisfy: Create new supplier', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -30,8 +30,8 @@ describe('Supplier Service', () => {
   });
 
 
-  describe('Criterion 2: Update supplier...', () => {
-    it('should satisfy: Update supplier', () => {
+  describe('Criterion 2: Update existing supplier...', () => {
+    it('should satisfy: Update existing supplier', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -43,8 +43,8 @@ describe('Supplier Service', () => {
   });
 
 
-  describe('Criterion 3: Get supplier by ID...', () => {
-    it('should satisfy: Get supplier by ID', () => {
+  describe('Criterion 3: Get supplier details...', () => {
+    it('should satisfy: Get supplier details', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -56,8 +56,8 @@ describe('Supplier Service', () => {
   });
 
 
-  describe('Criterion 4: List suppliers with pagination and filtering...', () => {
-    it('should satisfy: List suppliers with pagination and filtering', () => {
+  describe('Criterion 4: Get all suppliers...', () => {
+    it('should satisfy: Get all suppliers', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
