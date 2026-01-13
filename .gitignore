@@ -1,22 +1,6 @@
-# Dependencies
-node_modules/
-.pnp/
-.pnp.js
-
-# Build
-dist/
-build/
-.next/
-out/
-
-# Environment
-.env
-.env.local
-.env.*.local
-
 # IDE
-.vscode/
 .idea/
+.vscode/
 *.swp
 *.swo
 
@@ -24,14 +8,26 @@ out/
 .DS_Store
 Thumbs.db
 
+# Environment
+.env
+.env.local
+.env.*.local
+
 # Logs
-logs/
 *.log
-npm-debug.log*
+logs/
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+.next/
+out/
 
 # Testing
 coverage/
 
-# Misc
-*.tmp
-*.temp
+# Cache
+.cache/
+*.tsbuildinfo
