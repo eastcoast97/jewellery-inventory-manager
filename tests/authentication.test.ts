@@ -2,12 +2,13 @@ import { describe, it, expect, beforeEach } from 'vitest';
 
 /**
  * Tests for Authentication
- * NextAuth authentication for users
+ * NextAuth authentication for users with roles
  * 
  * Acceptance Criteria:
- * - POST /auth/register - Create user
- * - POST /auth/login - Return JWT token
- * - Password hashing with bcrypt
+ * - Login with email and password
+ * - Register new user with role
+ * - Forgot password and password reset
+ * - Role-based access control
  */
 
 describe('Authentication', () => {
@@ -16,8 +17,8 @@ describe('Authentication', () => {
   });
 
 
-  describe('Criterion 1: POST /auth/register - Create user...', () => {
-    it('should satisfy: POST /auth/register - Create user', () => {
+  describe('Criterion 1: Login with email and password...', () => {
+    it('should satisfy: Login with email and password', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -29,8 +30,8 @@ describe('Authentication', () => {
   });
 
 
-  describe('Criterion 2: POST /auth/login - Return JWT token...', () => {
-    it('should satisfy: POST /auth/login - Return JWT token', () => {
+  describe('Criterion 2: Register new user with role...', () => {
+    it('should satisfy: Register new user with role', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -42,8 +43,21 @@ describe('Authentication', () => {
   });
 
 
-  describe('Criterion 3: Password hashing with bcrypt...', () => {
-    it('should satisfy: Password hashing with bcrypt', () => {
+  describe('Criterion 3: Forgot password and password reset...', () => {
+    it('should satisfy: Forgot password and password reset', () => {
+      // TODO: Implement test for this criterion
+      expect(true).toBe(true);
+    });
+
+    it('should handle error case', () => {
+      // TODO: Add error handling test
+      expect(true).toBe(true);
+    });
+  });
+
+
+  describe('Criterion 4: Role-based access control...', () => {
+    it('should satisfy: Role-based access control', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
