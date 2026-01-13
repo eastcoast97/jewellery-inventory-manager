@@ -10,10 +10,10 @@ Business logic for purchases
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create purchase... | ✅ Met | Implemented |
-| Update purchase... | ✅ Met | Implemented |
-| Get purchase by ID... | ✅ Met | Implemented |
-| List purchases with pagination and filtering... | ✅ Met | Implemented |
+| Create new purchase... | ✅ Met | Implemented |
+| Update existing purchase... | ✅ Met | Implemented |
+| Get purchase details... | ✅ Met | Implemented |
+| Get all purchases... | ✅ Met | Implemented |
 
 ## Usage
 
@@ -36,7 +36,6 @@ await instance.execute();
 ## Dependencies
 
 - database-schema
-- item-service
 - supplier-service
 
 ## Known Limitations
