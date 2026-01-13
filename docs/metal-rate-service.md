@@ -10,7 +10,7 @@ Business logic for metal rates
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Update metal rates daily... | ✅ Met | Implemented |
+| Update daily metal rates... | ✅ Met | Implemented |
 | Get current metal rates... | ✅ Met | Implemented |
 
 ## Usage
