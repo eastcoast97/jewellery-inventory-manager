@@ -10,9 +10,10 @@ Business logic for customers
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create new customer... | ✅ Met | Implemented |
-| Update existing customer... | ✅ Met | Implemented |
-| Get customer details... | ✅ Met | Implemented |
+| Create customer... | ✅ Met | Implemented |
+| Update customer... | ✅ Met | Implemented |
+| Get customer by ID... | ✅ Met | Implemented |
+| List customers with pagination and filtering... | ✅ Met | Implemented |
 
 ## Usage
 
