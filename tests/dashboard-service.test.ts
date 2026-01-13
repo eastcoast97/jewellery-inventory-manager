@@ -5,10 +5,10 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for dashboard
  * 
  * Acceptance Criteria:
- * - Display current stock value
- * - Display today's gold rate
- * - Display recent sales
- * - Display fast-moving items
+ * - Get current stock value
+ * - Get today's gold rate
+ * - Get recent sales
+ * - Get fast-moving items
  */
 
 describe('Dashboard Service', () => {
@@ -17,8 +17,8 @@ describe('Dashboard Service', () => {
   });
 
 
-  describe('Criterion 1: Display current stock value...', () => {
-    it('should satisfy: Display current stock value', () => {
+  describe('Criterion 1: Get current stock value...', () => {
+    it('should satisfy: Get current stock value', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -30,8 +30,8 @@ describe('Dashboard Service', () => {
   });
 
 
-  describe('Criterion 2: Display today's gold rate...', () => {
-    it('should satisfy: Display today's gold rate', () => {
+  describe('Criterion 2: Get today's gold rate...', () => {
+    it('should satisfy: Get today's gold rate', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -43,8 +43,8 @@ describe('Dashboard Service', () => {
   });
 
 
-  describe('Criterion 3: Display recent sales...', () => {
-    it('should satisfy: Display recent sales', () => {
+  describe('Criterion 3: Get recent sales...', () => {
+    it('should satisfy: Get recent sales', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -56,8 +56,8 @@ describe('Dashboard Service', () => {
   });
 
 
-  describe('Criterion 4: Display fast-moving items...', () => {
-    it('should satisfy: Display fast-moving items', () => {
+  describe('Criterion 4: Get fast-moving items...', () => {
+    it('should satisfy: Get fast-moving items', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
