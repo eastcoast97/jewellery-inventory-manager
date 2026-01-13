@@ -5,8 +5,8 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for price calculations
  * 
  * Acceptance Criteria:
- * - Calculate item price based on metal rates, making charges, wastage, and stone value
- * - Calculate GST and profit margins
+ * - Calculate item price based on metal rate, making charges, wastage, and stone value
+ * - Calculate GST
  */
 
 describe('Price Calculation Service', () => {
@@ -15,8 +15,8 @@ describe('Price Calculation Service', () => {
   });
 
 
-  describe('Criterion 1: Calculate item price based on metal rates, making ...', () => {
-    it('should satisfy: Calculate item price based on metal rates, making charges, w', () => {
+  describe('Criterion 1: Calculate item price based on metal rate, making c...', () => {
+    it('should satisfy: Calculate item price based on metal rate, making charges, wa', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -28,8 +28,8 @@ describe('Price Calculation Service', () => {
   });
 
 
-  describe('Criterion 2: Calculate GST and profit margins...', () => {
-    it('should satisfy: Calculate GST and profit margins', () => {
+  describe('Criterion 2: Calculate GST...', () => {
+    it('should satisfy: Calculate GST', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
