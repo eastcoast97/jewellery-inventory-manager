@@ -3,9 +3,10 @@
  * Business logic for sales
  * 
  * Acceptance Criteria:
- * - Create new sale
- * - Update existing sale
- * - Get sale details
+ * - Create sale
+ * - Update sale
+ * - Get sale by ID
+ * - List sales with pagination and filtering
  */
 
 export class SaleServiceService {
