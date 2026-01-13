@@ -5,7 +5,7 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for metal rates
  * 
  * Acceptance Criteria:
- * - Update metal rates daily
+ * - Update daily metal rates
  * - Get current metal rates
  */
 
@@ -15,8 +15,8 @@ describe('Metal Rate Service', () => {
   });
 
 
-  describe('Criterion 1: Update metal rates daily...', () => {
-    it('should satisfy: Update metal rates daily', () => {
+  describe('Criterion 1: Update daily metal rates...', () => {
+    it('should satisfy: Update daily metal rates', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
