@@ -5,10 +5,10 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for sales
  * 
  * Acceptance Criteria:
- * - Create sale
- * - Update sale
- * - Get sale by ID
- * - List sales with pagination and filtering
+ * - Create new sale
+ * - Update existing sale
+ * - Get sale details
+ * - Get all sales
  */
 
 describe('Sale Service', () => {
@@ -17,8 +17,8 @@ describe('Sale Service', () => {
   });
 
 
-  describe('Criterion 1: Create sale...', () => {
-    it('should satisfy: Create sale', () => {
+  describe('Criterion 1: Create new sale...', () => {
+    it('should satisfy: Create new sale', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -30,8 +30,8 @@ describe('Sale Service', () => {
   });
 
 
-  describe('Criterion 2: Update sale...', () => {
-    it('should satisfy: Update sale', () => {
+  describe('Criterion 2: Update existing sale...', () => {
+    it('should satisfy: Update existing sale', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -43,8 +43,8 @@ describe('Sale Service', () => {
   });
 
 
-  describe('Criterion 3: Get sale by ID...', () => {
-    it('should satisfy: Get sale by ID', () => {
+  describe('Criterion 3: Get sale details...', () => {
+    it('should satisfy: Get sale details', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -56,8 +56,8 @@ describe('Sale Service', () => {
   });
 
 
-  describe('Criterion 4: List sales with pagination and filtering...', () => {
-    it('should satisfy: List sales with pagination and filtering', () => {
+  describe('Criterion 4: Get all sales...', () => {
+    it('should satisfy: Get all sales', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
