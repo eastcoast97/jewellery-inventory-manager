@@ -10,8 +10,8 @@ Business logic for price calculations
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Calculate item price based on metal rates, making ... | ✅ Met | Implemented |
-| Calculate GST and profit margins... | ✅ Met | Implemented |
+| Calculate item price based on metal rate, making c... | ✅ Met | Implemented |
+| Calculate GST... | ✅ Met | Implemented |
 
 ## Usage
 
