@@ -3,9 +3,10 @@
  * Business logic for suppliers
  * 
  * Acceptance Criteria:
- * - Create new supplier
- * - Update existing supplier
- * - Get supplier details
+ * - Create supplier
+ * - Update supplier
+ * - Get supplier by ID
+ * - List suppliers with pagination and filtering
  */
 
 export class SupplierServiceService {
