@@ -5,11 +5,11 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for items
  * 
  * Acceptance Criteria:
- * - Create new item
- * - Update existing item
+ * - Create item
+ * - Update item
  * - Mark item as sold, reserved, or returned
- * - Get item details
- * - Calculate item price based on metal rates, making charges, wastage, and stone value
+ * - Get item by ID
+ * - List items with pagination and filtering
  */
 
 describe('Item Service', () => {
@@ -18,8 +18,8 @@ describe('Item Service', () => {
   });
 
 
-  describe('Criterion 1: Create new item...', () => {
-    it('should satisfy: Create new item', () => {
+  describe('Criterion 1: Create item...', () => {
+    it('should satisfy: Create item', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -31,8 +31,8 @@ describe('Item Service', () => {
   });
 
 
-  describe('Criterion 2: Update existing item...', () => {
-    it('should satisfy: Update existing item', () => {
+  describe('Criterion 2: Update item...', () => {
+    it('should satisfy: Update item', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -57,8 +57,8 @@ describe('Item Service', () => {
   });
 
 
-  describe('Criterion 4: Get item details...', () => {
-    it('should satisfy: Get item details', () => {
+  describe('Criterion 4: Get item by ID...', () => {
+    it('should satisfy: Get item by ID', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -70,8 +70,8 @@ describe('Item Service', () => {
   });
 
 
-  describe('Criterion 5: Calculate item price based on metal rates, making ...', () => {
-    it('should satisfy: Calculate item price based on metal rates, making charges, w', () => {
+  describe('Criterion 5: List items with pagination and filtering...', () => {
+    it('should satisfy: List items with pagination and filtering', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
