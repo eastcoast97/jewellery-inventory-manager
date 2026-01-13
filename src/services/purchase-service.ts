@@ -3,9 +3,10 @@
  * Business logic for purchases
  * 
  * Acceptance Criteria:
- * - Create new purchase
- * - Update existing purchase
- * - Get purchase details
+ * - Create purchase
+ * - Update purchase
+ * - Get purchase by ID
+ * - List purchases with pagination and filtering
  */
 
 export class PurchaseServiceService {
