@@ -2,7 +2,7 @@
 
 ## Overview
 
-NextAuth authentication for users
+NextAuth authentication for users with roles
 
 **Type:** auth
 
@@ -10,9 +10,10 @@ NextAuth authentication for users
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| POST /auth/register - Create user... | ✅ Met | Implemented |
-| POST /auth/login - Return JWT token... | ✅ Met | Implemented |
-| Password hashing with bcrypt... | ✅ Met | Implemented |
+| Login with email and password... | ✅ Met | Implemented |
+| Register new user with role... | ✅ Met | Implemented |
+| Forgot password and password reset... | ✅ Met | Implemented |
+| Role-based access control... | ✅ Met | Implemented |
 
 ## Usage
 
