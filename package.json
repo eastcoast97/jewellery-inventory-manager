@@ -1,0 +1,21 @@
+{
+  "name": "jewellery-inventory-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "next-auth": "^4.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0",
+    "prisma": "^5.0.0"
+  }
+}
