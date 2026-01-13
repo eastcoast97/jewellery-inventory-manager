@@ -5,10 +5,10 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for customers
  * 
  * Acceptance Criteria:
- * - Create customer
- * - Update customer
- * - Get customer by ID
- * - List customers with pagination and filtering
+ * - Create new customer
+ * - Update existing customer
+ * - Get customer details
+ * - Get all customers
  */
 
 describe('Customer Service', () => {
@@ -17,8 +17,8 @@ describe('Customer Service', () => {
   });
 
 
-  describe('Criterion 1: Create customer...', () => {
-    it('should satisfy: Create customer', () => {
+  describe('Criterion 1: Create new customer...', () => {
+    it('should satisfy: Create new customer', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -30,8 +30,8 @@ describe('Customer Service', () => {
   });
 
 
-  describe('Criterion 2: Update customer...', () => {
-    it('should satisfy: Update customer', () => {
+  describe('Criterion 2: Update existing customer...', () => {
+    it('should satisfy: Update existing customer', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -43,8 +43,8 @@ describe('Customer Service', () => {
   });
 
 
-  describe('Criterion 3: Get customer by ID...', () => {
-    it('should satisfy: Get customer by ID', () => {
+  describe('Criterion 3: Get customer details...', () => {
+    it('should satisfy: Get customer details', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -56,8 +56,8 @@ describe('Customer Service', () => {
   });
 
 
-  describe('Criterion 4: List customers with pagination and filtering...', () => {
-    it('should satisfy: List customers with pagination and filtering', () => {
+  describe('Criterion 4: Get all customers...', () => {
+    it('should satisfy: Get all customers', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
