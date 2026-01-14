@@ -3,26 +3,25 @@
  * Business logic for items
  * 
  * Acceptance Criteria:
- * - Create new item
- * - Update existing item
+ * - Create item
+ * - Update item
  * - Mark item as sold, reserved, or returned
- * - Get item details
- * - Get all items
+ * - Calculate item price based on daily metal rates, making charges, wastage, GST, and stone value
  */
 
 import { prisma } from '../db/client';
 
-export interface ItemServiceData {
+export interface ItemData {
   id?: string;
   [key: string]: unknown;
 }
 
 export class ItemServiceService {
   /**
-   * Get all item-service records
+   * Get all item records
    */
   async findAll(options?: { skip?: number; take?: number; where?: Record<string, unknown> }) {
-    return prisma.itemservice.findMany({
+    return prisma.item.findMany({
       skip: options?.skip,
       take: options?.take ?? 50,
       where: options?.where,
@@ -31,47 +30,47 @@ export class ItemServiceService {
   }
 
   /**
-   * Get a single item-service by ID
+   * Get a single item by ID
    */
   async findById(id: string) {
-    return prisma.itemservice.findUnique({
+    return prisma.item.findUnique({
       where: { id },
     });
   }
 
   /**
-   * Create a new item-service
+   * Create a new item
    */
-  async create(data: Omit<ItemServiceData, 'id'>) {
-    return prisma.itemservice.create({
+  async create(data: Omit<ItemData, 'id'>) {
+    return prisma.item.create({
       data: data as never,
     });
   }
 
   /**
-   * Update an existing item-service
+   * Update an existing item
    */
-  async update(id: string, data: Partial<ItemServiceData>) {
-    return prisma.itemservice.update({
+  async update(id: string, data: Partial<ItemData>) {
+    return prisma.item.update({
       where: { id },
       data: data as never,
     });
   }
 
   /**
-   * Delete a item-service
+   * Delete a item
    */
   async delete(id: string) {
-    return prisma.itemservice.delete({
+    return prisma.item.delete({
       where: { id },
     });
   }
 
   /**
-   * Count item-service records
+   * Count item records
    */
   async count(where?: Record<string, unknown>) {
-    return prisma.itemservice.count({ where });
+    return prisma.item.count({ where });
   }
 }
 
