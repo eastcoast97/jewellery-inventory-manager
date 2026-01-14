@@ -2,7 +2,7 @@
 
 ## Overview
 
-Prisma schema with Item, Supplier, Purchase, Sale, Customer, User models
+Prisma schema with Item, Supplier, Purchase, Sale, User, and Role models
 
 **Type:** database
 
@@ -10,12 +10,12 @@ Prisma schema with Item, Supplier, Purchase, Sale, Customer, User models
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Item model with item name, category, metal type, p... | ✅ Met | Implemented |
-| Supplier model with supplier name, address, contac... | ✅ Met | Implemented |
-| Purchase model with purchase date, supplier, items... | ✅ Met | Implemented |
-| Sale model with sale date, customer, items sold... | ✅ Met | Implemented |
-| Customer model with customer name, address, contac... | ✅ Met | Implemented |
-| User model with user name, role, access level... | ✅ Met | Implemented |
+| Item model with id, name, category, metalType, pur... | ✅ Met | Implemented |
+| Supplier model with id, name, address, and contact... | ✅ Met | Implemented |
+| Purchase model with id, itemId, supplierId, purcha... | ✅ Met | Implemented |
+| Sale model with id, itemId, saleDate, and amount... | ✅ Met | Implemented |
+| User model with id, name, email, password, role, a... | ✅ Met | Implemented |
+| Role model with id, name, and permissions... | ✅ Met | Implemented |
 | Foreign key relationships between models... | ✅ Met | Implemented |
 
 ## Usage
