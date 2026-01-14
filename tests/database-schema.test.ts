@@ -2,15 +2,15 @@ import { describe, it, expect, beforeEach } from 'vitest';
 
 /**
  * Tests for Database Schema
- * Prisma schema with Item, Supplier, Purchase, Sale, Customer, and User models
+ * Prisma schema with Item, Supplier, Purchase, Sale, Customer, User models
  * 
  * Acceptance Criteria:
- * - Item model with id, name, category, metalType, purity, grossWeight, netWeight, stoneDetails, makingCharges, wastage, finalPrice, and timestamps
- * - Supplier model with id, name, address, and contactDetails
- * - Purchase model with id, supplierId, itemId, quantity, and date
- * - Sale model with id, customerId, itemId, quantity, and date
- * - Customer model with id, name, address, and contactDetails
- * - User model with id, name, email, password, role, and timestamps
+ * - Item model with item name, category, metal type, purity, gross weight, net weight, stone details, making charges, wastage, final price
+ * - Supplier model with supplier name, address, contact details
+ * - Purchase model with purchase date, supplier, items purchased
+ * - Sale model with sale date, customer, items sold
+ * - Customer model with customer name, address, contact details
+ * - User model with user name, role, access level
  * - Foreign key relationships between models
  */
 
@@ -20,8 +20,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 1: Item model with id, name, category, metalType, pur...', () => {
-    it('should satisfy: Item model with id, name, category, metalType, purity, gross', () => {
+  describe('Criterion 1: Item model with item name, category, metal type, p...', () => {
+    it('should satisfy: Item model with item name, category, metal type, purity, gro', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -33,8 +33,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 2: Supplier model with id, name, address, and contact...', () => {
-    it('should satisfy: Supplier model with id, name, address, and contactDetails', () => {
+  describe('Criterion 2: Supplier model with supplier name, address, contac...', () => {
+    it('should satisfy: Supplier model with supplier name, address, contact details', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -46,8 +46,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 3: Purchase model with id, supplierId, itemId, quanti...', () => {
-    it('should satisfy: Purchase model with id, supplierId, itemId, quantity, and da', () => {
+  describe('Criterion 3: Purchase model with purchase date, supplier, items...', () => {
+    it('should satisfy: Purchase model with purchase date, supplier, items purchased', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -59,8 +59,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 4: Sale model with id, customerId, itemId, quantity, ...', () => {
-    it('should satisfy: Sale model with id, customerId, itemId, quantity, and date', () => {
+  describe('Criterion 4: Sale model with sale date, customer, items sold...', () => {
+    it('should satisfy: Sale model with sale date, customer, items sold', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -72,8 +72,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 5: Customer model with id, name, address, and contact...', () => {
-    it('should satisfy: Customer model with id, name, address, and contactDetails', () => {
+  describe('Criterion 5: Customer model with customer name, address, contac...', () => {
+    it('should satisfy: Customer model with customer name, address, contact details', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -85,8 +85,8 @@ describe('Database Schema', () => {
   });
 
 
-  describe('Criterion 6: User model with id, name, email, password, role, a...', () => {
-    it('should satisfy: User model with id, name, email, password, role, and timesta', () => {
+  describe('Criterion 6: User model with user name, role, access level...', () => {
+    it('should satisfy: User model with user name, role, access level', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
