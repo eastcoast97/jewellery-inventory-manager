@@ -10,10 +10,9 @@ Business logic for purchases
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create new purchase... | ✅ Met | Implemented |
-| Update existing purchase... | ✅ Met | Implemented |
-| Get purchase details... | ✅ Met | Implemented |
-| Get all purchases... | ✅ Met | Implemented |
+| Create purchase... | ✅ Met | Implemented |
+| Update purchase... | ✅ Met | Implemented |
+| View purchase details... | ✅ Met | Implemented |
 
 ## Usage
 
