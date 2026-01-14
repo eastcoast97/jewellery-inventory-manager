@@ -10,9 +10,11 @@ REST endpoints for items
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create new item... | ✅ Met | Implemented |
-| Update existing item... | ✅ Met | Implemented |
-| Get item details... | ✅ Met | Implemented |
+| GET /items - Get all items... | ✅ Met | Implemented |
+| GET /items/:id - Get item by ID... | ✅ Met | Implemented |
+| POST /items - Create item... | ✅ Met | Implemented |
+| PUT /items/:id - Update item... | ✅ Met | Implemented |
+| DELETE /items/:id - Delete item... | ✅ Met | Implemented |
 
 ## Usage
 
@@ -34,6 +36,7 @@ await instance.execute();
 
 ## Dependencies
 
+- auth-module
 - item-service
 
 ## Known Limitations
