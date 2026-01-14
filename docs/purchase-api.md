@@ -10,9 +10,11 @@ REST endpoints for purchases
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create new purchase... | ✅ Met | Implemented |
-| Update existing purchase... | ✅ Met | Implemented |
-| Get purchase details... | ✅ Met | Implemented |
+| GET /purchases - Get all purchases... | ✅ Met | Implemented |
+| GET /purchases/:id - Get purchase by ID... | ✅ Met | Implemented |
+| POST /purchases - Create purchase... | ✅ Met | Implemented |
+| PUT /purchases/:id - Update purchase... | ✅ Met | Implemented |
+| DELETE /purchases/:id - Delete purchase... | ✅ Met | Implemented |
 
 ## Usage
 
@@ -34,6 +36,7 @@ await instance.execute();
 
 ## Dependencies
 
+- auth-module
 - purchase-service
 
 ## Known Limitations
