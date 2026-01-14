@@ -5,9 +5,11 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * REST endpoints for suppliers
  * 
  * Acceptance Criteria:
- * - Create new supplier
- * - Update existing supplier
- * - Get supplier details
+ * - GET /suppliers - Get all suppliers
+ * - GET /suppliers/:id - Get supplier by ID
+ * - POST /suppliers - Create supplier
+ * - PUT /suppliers/:id - Update supplier
+ * - DELETE /suppliers/:id - Delete supplier
  */
 
 describe('Supplier API', () => {
@@ -16,8 +18,8 @@ describe('Supplier API', () => {
   });
 
 
-  describe('Criterion 1: Create new supplier...', () => {
-    it('should satisfy: Create new supplier', () => {
+  describe('Criterion 1: GET /suppliers - Get all suppliers...', () => {
+    it('should satisfy: GET /suppliers - Get all suppliers', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -29,8 +31,8 @@ describe('Supplier API', () => {
   });
 
 
-  describe('Criterion 2: Update existing supplier...', () => {
-    it('should satisfy: Update existing supplier', () => {
+  describe('Criterion 2: GET /suppliers/:id - Get supplier by ID...', () => {
+    it('should satisfy: GET /suppliers/:id - Get supplier by ID', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -42,8 +44,34 @@ describe('Supplier API', () => {
   });
 
 
-  describe('Criterion 3: Get supplier details...', () => {
-    it('should satisfy: Get supplier details', () => {
+  describe('Criterion 3: POST /suppliers - Create supplier...', () => {
+    it('should satisfy: POST /suppliers - Create supplier', () => {
+      // TODO: Implement test for this criterion
+      expect(true).toBe(true);
+    });
+
+    it('should handle error case', () => {
+      // TODO: Add error handling test
+      expect(true).toBe(true);
+    });
+  });
+
+
+  describe('Criterion 4: PUT /suppliers/:id - Update supplier...', () => {
+    it('should satisfy: PUT /suppliers/:id - Update supplier', () => {
+      // TODO: Implement test for this criterion
+      expect(true).toBe(true);
+    });
+
+    it('should handle error case', () => {
+      // TODO: Add error handling test
+      expect(true).toBe(true);
+    });
+  });
+
+
+  describe('Criterion 5: DELETE /suppliers/:id - Delete supplier...', () => {
+    it('should satisfy: DELETE /suppliers/:id - Delete supplier', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
