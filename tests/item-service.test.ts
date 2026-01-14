@@ -5,11 +5,10 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for items
  * 
  * Acceptance Criteria:
- * - Create new item
- * - Update existing item
+ * - Create item
+ * - Update item
  * - Mark item as sold, reserved, or returned
- * - Get item details
- * - Get all items
+ * - Calculate item price based on daily metal rates, making charges, wastage, GST, and stone value
  */
 
 describe('Item Service', () => {
@@ -18,8 +17,8 @@ describe('Item Service', () => {
   });
 
 
-  describe('Criterion 1: Create new item...', () => {
-    it('should satisfy: Create new item', () => {
+  describe('Criterion 1: Create item...', () => {
+    it('should satisfy: Create item', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -31,8 +30,8 @@ describe('Item Service', () => {
   });
 
 
-  describe('Criterion 2: Update existing item...', () => {
-    it('should satisfy: Update existing item', () => {
+  describe('Criterion 2: Update item...', () => {
+    it('should satisfy: Update item', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -57,21 +56,8 @@ describe('Item Service', () => {
   });
 
 
-  describe('Criterion 4: Get item details...', () => {
-    it('should satisfy: Get item details', () => {
-      // TODO: Implement test for this criterion
-      expect(true).toBe(true);
-    });
-
-    it('should handle error case', () => {
-      // TODO: Add error handling test
-      expect(true).toBe(true);
-    });
-  });
-
-
-  describe('Criterion 5: Get all items...', () => {
-    it('should satisfy: Get all items', () => {
+  describe('Criterion 4: Calculate item price based on daily metal rates, m...', () => {
+    it('should satisfy: Calculate item price based on daily metal rates, making char', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
