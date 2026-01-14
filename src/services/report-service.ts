@@ -12,17 +12,17 @@
 
 import { prisma } from '../db/client';
 
-export interface ReportServiceData {
+export interface ReportData {
   id?: string;
   [key: string]: unknown;
 }
 
 export class ReportServiceService {
   /**
-   * Get all report-service records
+   * Get all report records
    */
   async findAll(options?: { skip?: number; take?: number; where?: Record<string, unknown> }) {
-    return prisma.reportservice.findMany({
+    return prisma.report.findMany({
       skip: options?.skip,
       take: options?.take ?? 50,
       where: options?.where,
@@ -31,47 +31,47 @@ export class ReportServiceService {
   }
 
   /**
-   * Get a single report-service by ID
+   * Get a single report by ID
    */
   async findById(id: string) {
-    return prisma.reportservice.findUnique({
+    return prisma.report.findUnique({
       where: { id },
     });
   }
 
   /**
-   * Create a new report-service
+   * Create a new report
    */
-  async create(data: Omit<ReportServiceData, 'id'>) {
-    return prisma.reportservice.create({
+  async create(data: Omit<ReportData, 'id'>) {
+    return prisma.report.create({
       data: data as never,
     });
   }
 
   /**
-   * Update an existing report-service
+   * Update an existing report
    */
-  async update(id: string, data: Partial<ReportServiceData>) {
-    return prisma.reportservice.update({
+  async update(id: string, data: Partial<ReportData>) {
+    return prisma.report.update({
       where: { id },
       data: data as never,
     });
   }
 
   /**
-   * Delete a report-service
+   * Delete a report
    */
   async delete(id: string) {
-    return prisma.reportservice.delete({
+    return prisma.report.delete({
       where: { id },
     });
   }
 
   /**
-   * Count report-service records
+   * Count report records
    */
   async count(where?: Record<string, unknown>) {
-    return prisma.reportservice.count({ where });
+    return prisma.report.count({ where });
   }
 }
 
