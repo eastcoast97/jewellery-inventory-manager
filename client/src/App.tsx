@@ -1,21 +1,22 @@
 import { Routes, Route } from 'react-router-dom';
+import { Layout } from './components/Layout';
+import { DashboardPage } from './pages/DashboardPage';
+import { ItemsPage } from './pages/ItemsPage';
+import { ItemDetailPage } from './pages/ItemDetailPage';
+import { SalesPage } from './pages/SalesPage';
+import { SaleDetailPage } from './pages/SaleDetailPage';
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <Layout>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<DashboardPage />} />
+        <Route path="/items" element={<ItemsPage />} />
+        <Route path="/items/:id" element={<ItemDetailPage />} />
+        <Route path="/sales" element={<SalesPage />} />
+        <Route path="/sales/:id" element={<SaleDetailPage />} />
       </Routes>
-    </div>
-  );
-}
-
-function Home() {
-  return (
-    <main className="p-8">
-      <h1 className="text-3xl font-bold mb-4">jewellery-inventory-manager</h1>
-      <p className="text-gray-600">A web application to manage inventory for a jewellery business</p>
-    </main>
+    </Layout>
   );
 }
 
