@@ -1,6 +1,6 @@
 /**
  * Authentication Auth Module
- * NextAuth authentication for users with roles
+ * Authentication for users with roles
  * 
  * Provides authentication and authorization services
  */
