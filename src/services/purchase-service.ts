@@ -3,25 +3,24 @@
  * Business logic for purchases
  * 
  * Acceptance Criteria:
- * - Create new purchase
- * - Update existing purchase
- * - Get purchase details
- * - Get all purchases
+ * - Create purchase
+ * - Update purchase
+ * - View purchase details
  */
 
 import { prisma } from '../db/client';
 
-export interface PurchaseServiceData {
+export interface PurchaseData {
   id?: string;
   [key: string]: unknown;
 }
 
 export class PurchaseServiceService {
   /**
-   * Get all purchase-service records
+   * Get all purchase records
    */
   async findAll(options?: { skip?: number; take?: number; where?: Record<string, unknown> }) {
-    return prisma.purchaseservice.findMany({
+    return prisma.purchase.findMany({
       skip: options?.skip,
       take: options?.take ?? 50,
       where: options?.where,
@@ -30,47 +29,47 @@ export class PurchaseServiceService {
   }
 
   /**
-   * Get a single purchase-service by ID
+   * Get a single purchase by ID
    */
   async findById(id: string) {
-    return prisma.purchaseservice.findUnique({
+    return prisma.purchase.findUnique({
       where: { id },
     });
   }
 
   /**
-   * Create a new purchase-service
+   * Create a new purchase
    */
-  async create(data: Omit<PurchaseServiceData, 'id'>) {
-    return prisma.purchaseservice.create({
+  async create(data: Omit<PurchaseData, 'id'>) {
+    return prisma.purchase.create({
       data: data as never,
     });
   }
 
   /**
-   * Update an existing purchase-service
+   * Update an existing purchase
    */
-  async update(id: string, data: Partial<PurchaseServiceData>) {
-    return prisma.purchaseservice.update({
+  async update(id: string, data: Partial<PurchaseData>) {
+    return prisma.purchase.update({
       where: { id },
       data: data as never,
     });
   }
 
   /**
-   * Delete a purchase-service
+   * Delete a purchase
    */
   async delete(id: string) {
-    return prisma.purchaseservice.delete({
+    return prisma.purchase.delete({
       where: { id },
     });
   }
 
   /**
-   * Count purchase-service records
+   * Count purchase records
    */
   async count(where?: Record<string, unknown>) {
-    return prisma.purchaseservice.count({ where });
+    return prisma.purchase.count({ where });
   }
 }
 
