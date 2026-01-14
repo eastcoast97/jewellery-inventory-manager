@@ -10,9 +10,11 @@ REST endpoints for customers
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create new customer... | ✅ Met | Implemented |
-| Update existing customer... | ✅ Met | Implemented |
-| Get customer details... | ✅ Met | Implemented |
+| GET /customers - Get all customers... | ✅ Met | Implemented |
+| GET /customers/:id - Get customer by ID... | ✅ Met | Implemented |
+| POST /customers - Create customer... | ✅ Met | Implemented |
+| PUT /customers/:id - Update customer... | ✅ Met | Implemented |
+| DELETE /customers/:id - Delete customer... | ✅ Met | Implemented |
 
 ## Usage
 
@@ -34,6 +36,7 @@ await instance.execute();
 
 ## Dependencies
 
+- auth-module
 - customer-service
 
 ## Known Limitations
