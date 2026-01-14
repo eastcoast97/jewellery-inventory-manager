@@ -10,9 +10,11 @@ REST endpoints for suppliers
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Create new supplier... | ✅ Met | Implemented |
-| Update existing supplier... | ✅ Met | Implemented |
-| Get supplier details... | ✅ Met | Implemented |
+| GET /suppliers - Get all suppliers... | ✅ Met | Implemented |
+| GET /suppliers/:id - Get supplier by ID... | ✅ Met | Implemented |
+| POST /suppliers - Create supplier... | ✅ Met | Implemented |
+| PUT /suppliers/:id - Update supplier... | ✅ Met | Implemented |
+| DELETE /suppliers/:id - Delete supplier... | ✅ Met | Implemented |
 
 ## Usage
 
@@ -34,6 +36,7 @@ await instance.execute();
 
 ## Dependencies
 
+- auth-module
 - supplier-service
 
 ## Known Limitations
