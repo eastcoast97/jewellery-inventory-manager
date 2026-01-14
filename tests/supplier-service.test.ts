@@ -5,10 +5,9 @@ import { describe, it, expect, beforeEach } from 'vitest';
  * Business logic for suppliers
  * 
  * Acceptance Criteria:
- * - Create new supplier
- * - Update existing supplier
- * - Get supplier details
- * - Get all suppliers
+ * - Create supplier
+ * - Update supplier
+ * - View supplier details
  */
 
 describe('Supplier Service', () => {
@@ -17,8 +16,8 @@ describe('Supplier Service', () => {
   });
 
 
-  describe('Criterion 1: Create new supplier...', () => {
-    it('should satisfy: Create new supplier', () => {
+  describe('Criterion 1: Create supplier...', () => {
+    it('should satisfy: Create supplier', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -30,8 +29,8 @@ describe('Supplier Service', () => {
   });
 
 
-  describe('Criterion 2: Update existing supplier...', () => {
-    it('should satisfy: Update existing supplier', () => {
+  describe('Criterion 2: Update supplier...', () => {
+    it('should satisfy: Update supplier', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
@@ -43,21 +42,8 @@ describe('Supplier Service', () => {
   });
 
 
-  describe('Criterion 3: Get supplier details...', () => {
-    it('should satisfy: Get supplier details', () => {
-      // TODO: Implement test for this criterion
-      expect(true).toBe(true);
-    });
-
-    it('should handle error case', () => {
-      // TODO: Add error handling test
-      expect(true).toBe(true);
-    });
-  });
-
-
-  describe('Criterion 4: Get all suppliers...', () => {
-    it('should satisfy: Get all suppliers', () => {
+  describe('Criterion 3: View supplier details...', () => {
+    it('should satisfy: View supplier details', () => {
       // TODO: Implement test for this criterion
       expect(true).toBe(true);
     });
