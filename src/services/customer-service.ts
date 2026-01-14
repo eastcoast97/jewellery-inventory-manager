@@ -3,25 +3,24 @@
  * Business logic for customers
  * 
  * Acceptance Criteria:
- * - Create new customer
- * - Update existing customer
- * - Get customer details
- * - Get all customers
+ * - Create customer
+ * - Update customer
+ * - View customer details
  */
 
 import { prisma } from '../db/client';
 
-export interface CustomerServiceData {
+export interface CustomerData {
   id?: string;
   [key: string]: unknown;
 }
 
 export class CustomerServiceService {
   /**
-   * Get all customer-service records
+   * Get all customer records
    */
   async findAll(options?: { skip?: number; take?: number; where?: Record<string, unknown> }) {
-    return prisma.customerservice.findMany({
+    return prisma.customer.findMany({
       skip: options?.skip,
       take: options?.take ?? 50,
       where: options?.where,
@@ -30,47 +29,47 @@ export class CustomerServiceService {
   }
 
   /**
-   * Get a single customer-service by ID
+   * Get a single customer by ID
    */
   async findById(id: string) {
-    return prisma.customerservice.findUnique({
+    return prisma.customer.findUnique({
       where: { id },
     });
   }
 
   /**
-   * Create a new customer-service
+   * Create a new customer
    */
-  async create(data: Omit<CustomerServiceData, 'id'>) {
-    return prisma.customerservice.create({
+  async create(data: Omit<CustomerData, 'id'>) {
+    return prisma.customer.create({
       data: data as never,
     });
   }
 
   /**
-   * Update an existing customer-service
+   * Update an existing customer
    */
-  async update(id: string, data: Partial<CustomerServiceData>) {
-    return prisma.customerservice.update({
+  async update(id: string, data: Partial<CustomerData>) {
+    return prisma.customer.update({
       where: { id },
       data: data as never,
     });
   }
 
   /**
-   * Delete a customer-service
+   * Delete a customer
    */
   async delete(id: string) {
-    return prisma.customerservice.delete({
+    return prisma.customer.delete({
       where: { id },
     });
   }
 
   /**
-   * Count customer-service records
+   * Count customer records
    */
   async count(where?: Record<string, unknown>) {
-    return prisma.customerservice.count({ where });
+    return prisma.customer.count({ where });
   }
 }
 
