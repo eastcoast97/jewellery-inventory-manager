@@ -3,25 +3,24 @@
  * Business logic for sales
  * 
  * Acceptance Criteria:
- * - Create new sale
- * - Update existing sale
- * - Get sale details
- * - Get all sales
+ * - Create sale
+ * - Update sale
+ * - View sale details
  */
 
 import { prisma } from '../db/client';
 
-export interface SaleServiceData {
+export interface SaleData {
   id?: string;
   [key: string]: unknown;
 }
 
 export class SaleServiceService {
   /**
-   * Get all sale-service records
+   * Get all sale records
    */
   async findAll(options?: { skip?: number; take?: number; where?: Record<string, unknown> }) {
-    return prisma.saleservice.findMany({
+    return prisma.sale.findMany({
       skip: options?.skip,
       take: options?.take ?? 50,
       where: options?.where,
@@ -30,47 +29,47 @@ export class SaleServiceService {
   }
 
   /**
-   * Get a single sale-service by ID
+   * Get a single sale by ID
    */
   async findById(id: string) {
-    return prisma.saleservice.findUnique({
+    return prisma.sale.findUnique({
       where: { id },
     });
   }
 
   /**
-   * Create a new sale-service
+   * Create a new sale
    */
-  async create(data: Omit<SaleServiceData, 'id'>) {
-    return prisma.saleservice.create({
+  async create(data: Omit<SaleData, 'id'>) {
+    return prisma.sale.create({
       data: data as never,
     });
   }
 
   /**
-   * Update an existing sale-service
+   * Update an existing sale
    */
-  async update(id: string, data: Partial<SaleServiceData>) {
-    return prisma.saleservice.update({
+  async update(id: string, data: Partial<SaleData>) {
+    return prisma.sale.update({
       where: { id },
       data: data as never,
     });
   }
 
   /**
-   * Delete a sale-service
+   * Delete a sale
    */
   async delete(id: string) {
-    return prisma.saleservice.delete({
+    return prisma.sale.delete({
       where: { id },
     });
   }
 
   /**
-   * Count sale-service records
+   * Count sale records
    */
   async count(where?: Record<string, unknown>) {
-    return prisma.saleservice.count({ where });
+    return prisma.sale.count({ where });
   }
 }
 
