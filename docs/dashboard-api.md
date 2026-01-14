@@ -10,10 +10,7 @@ REST endpoints for dashboard data
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Get current stock value... | ✅ Met | Implemented |
-| Get today's gold rate... | ✅ Met | Implemented |
-| Get recent sales... | ✅ Met | Implemented |
-| Get fast-moving items... | ✅ Met | Implemented |
+| GET /dashboard - Get current stock value, today's ... | ✅ Met | Implemented |
 
 ## Usage
 
@@ -35,9 +32,9 @@ await instance.execute();
 
 ## Dependencies
 
+- auth-module
 - item-service
 - sale-service
-- metal-rate-service
 - report-service
 
 ## Known Limitations
