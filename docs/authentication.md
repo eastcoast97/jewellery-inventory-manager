@@ -2,7 +2,7 @@
 
 ## Overview
 
-NextAuth authentication for users with roles
+Authentication for users with roles
 
 **Type:** auth
 
@@ -10,10 +10,9 @@ NextAuth authentication for users with roles
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Login with email and password... | ✅ Met | Implemented |
-| Register new user with role... | ✅ Met | Implemented |
-| Forgot password and password reset... | ✅ Met | Implemented |
+| Login functionality for users... | ✅ Met | Implemented |
 | Role-based access control... | ✅ Met | Implemented |
+| Password hashing with bcrypt... | ✅ Met | Implemented |
 
 ## Usage
 
